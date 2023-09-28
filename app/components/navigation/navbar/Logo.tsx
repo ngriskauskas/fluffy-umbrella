@@ -29,7 +29,7 @@ export default function Logo() {
   return (
     <Link href="/" style={{ display: showButton ? "none" : "block" }}>
       <Image
-        src="/images/download.jpg"
+        src="/images/logo.jpg"
         alt="Logo"
         width={width < 1024 ? "65" : "75"}
         height={width < 1024 ? "30" : "70"}
